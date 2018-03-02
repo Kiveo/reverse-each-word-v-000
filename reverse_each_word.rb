@@ -3,7 +3,7 @@
 #   # string_array.reverse!
 #   x = string_array.split(" ")
 #   x.each do |word|
-#     y << word.reverse!
+#     y << word.reverse!          #why did this work? y is never called again.
 #   end
 #   x.join(" ")
 # end
